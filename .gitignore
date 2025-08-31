@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Local DB + logs + detections
+uwsd.db
+sightings/
+data/logs/
+
+# IDE/editor junk
+.vscode/
+.idea/
+.DS_Store
