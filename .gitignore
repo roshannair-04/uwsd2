@@ -1,18 +1,54 @@
-# Python cache
+# =========================
+# Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
 # Virtual environments
 .venv/
-env/
 venv/
+env/
+ENV/
 
-# Local DB + logs + detections
+# Jupyter
+.ipynb_checkpoints
+*.ipynb~
+
+# =========================
+# Project-specific
+# =========================
+# SQLite DB
 uwsd.db
+
+# Logs and sightings
 sightings/
 data/logs/
 
-# IDE/editor junk
+# YOLO/ML weights and cache
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.ckpt
+*.weights
+runs/
+
+# =========================
+# System / Editor Junk
+# =========================
+.DS_Store
 .vscode/
 .idea/
-.DS_Store
+*.swp
+*.swo
+
+# =========================
+# OS-generated files
+# =========================
+Thumbs.db
+Desktop.ini
